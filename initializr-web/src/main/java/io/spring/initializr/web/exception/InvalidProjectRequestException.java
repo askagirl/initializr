@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 
-package io.spring.initializr.web.project;
+package io.spring.initializr.web.exception;
 
 import io.spring.initializr.generator.project.ProjectGenerationException;
+import io.spring.initializr.web.project.ProjectRequest;
 
 /**
  * Thrown when a {@link ProjectRequest} is invalid.

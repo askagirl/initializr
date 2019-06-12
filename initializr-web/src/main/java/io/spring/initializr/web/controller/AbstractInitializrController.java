@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.spring.initializr.web.project;
+package io.spring.initializr.web.controller;
 
 import java.io.IOException;
 
@@ -22,6 +22,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import io.spring.initializr.metadata.InitializrMetadataProvider;
 
+import io.spring.initializr.web.exception.InvalidProjectRequestException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;

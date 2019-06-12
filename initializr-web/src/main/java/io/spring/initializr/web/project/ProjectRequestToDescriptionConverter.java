@@ -31,6 +31,7 @@ import io.spring.initializr.metadata.InitializrMetadata;
 import io.spring.initializr.metadata.Type;
 import io.spring.initializr.metadata.support.MetadataBuildItemMapper;
 
+import io.spring.initializr.web.exception.InvalidProjectRequestException;
 import org.springframework.util.StringUtils;
 
 /**

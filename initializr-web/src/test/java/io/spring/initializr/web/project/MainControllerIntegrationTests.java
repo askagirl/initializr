@@ -22,6 +22,7 @@ import java.net.URISyntaxException;
 import io.spring.initializr.metadata.Dependency;
 import io.spring.initializr.web.AbstractInitializrControllerIntegrationTests;
 import io.spring.initializr.web.AbstractInitializrIntegrationTests;
+import io.spring.initializr.web.controller.MainController;
 import io.spring.initializr.web.mapper.InitializrMetadataVersion;
 import org.json.JSONException;
 import org.json.JSONObject;

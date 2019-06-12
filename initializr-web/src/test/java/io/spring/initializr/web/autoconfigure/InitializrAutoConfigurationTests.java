@@ -19,7 +19,7 @@ package io.spring.initializr.web.autoconfigure;
 import io.spring.initializr.generator.io.template.TemplateRenderer;
 import io.spring.initializr.metadata.DependencyMetadataProvider;
 import io.spring.initializr.metadata.InitializrMetadataProvider;
-import io.spring.initializr.web.project.MainController;
+import io.spring.initializr.web.controller.MainController;
 import io.spring.initializr.web.project.ProjectGenerationInvoker;
 import io.spring.initializr.web.project.ProjectRequestToDescriptionConverter;
 import io.spring.initializr.web.support.DefaultInitializrMetadataUpdateStrategy;
